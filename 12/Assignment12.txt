@@ -1,0 +1,211 @@
+
+===============
+Unsorted random
+===============
+
+N = 100
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort            186          4,950              0
+           Insertion sort          2,618          2,527              0
+     Shellsort suboptimal            674            883              0
+        Shellsort optimal            565            672              0
+     Quicksort suboptimal            602            637              0
+          Quicksort Malik            580            710              0
+        Quicksort optimal            610            593              0
+                Mergesort            838            541              0
+
+N = 1,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort          1,986        499,500              2
+           Insertion sort        251,673        250,688              6
+     Shellsort suboptimal         11,660         15,274              0
+        Shellsort optimal         11,770         13,449              0
+     Quicksort suboptimal          7,422         11,138              0
+          Quicksort Malik          7,468         10,393              0
+        Quicksort optimal          7,570          9,694              0
+                Mergesort         11,709          8,712              0
+
+N = 10,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort         19,978     49,995,000            319
+           Insertion sort     24,957,868     24,947,889            668
+     Shellsort suboptimal        197,559        255,689              7
+        Shellsort optimal        198,965        220,972              6
+     Quicksort suboptimal         89,182        150,503              3
+          Quicksort Malik         89,070        156,746              3
+        Quicksort optimal         91,940        124,038              4
+                Mergesort        150,566        120,569             12
+
+N = 100,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort        199,968  4,999,950,000         25,377
+           Insertion sort  2,508,664,839  2,508,564,868         55,418
+     Shellsort suboptimal      3,489,078      4,170,713            108
+        Shellsort optimal      3,583,777      3,850,942             94
+     Quicksort suboptimal      1,049,858      1,842,474             30
+          Quicksort Malik      1,047,078      1,867,908             41
+        Quicksort optimal      1,074,828      1,593,422             46
+                Mergesort      1,836,448      1,536,451            178
+
+==============
+Already sorted
+==============
+
+N = 100
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0          4,950              0
+           Insertion sort              0             99              0
+     Shellsort suboptimal              0            503              0
+        Shellsort optimal              0            342              0
+     Quicksort suboptimal            400          5,149              0
+          Quicksort Malik            400            607              0
+        Quicksort optimal            400            607              0
+                Mergesort            613            316              0
+
+N = 1,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0        499,500              1
+           Insertion sort              0            999              0
+     Shellsort suboptimal              0          8,006              0
+        Shellsort optimal              0          5,457              0
+     Quicksort suboptimal          4,000        501,499              2
+          Quicksort Malik          4,000          9,010              0
+        Quicksort optimal          4,000          9,010              0
+                Mergesort          7,929          4,932              0
+
+N = 10,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0     49,995,000            237
+           Insertion sort              0          9,999              0
+     Shellsort suboptimal              0        120,005              1
+        Shellsort optimal              0         75,243              2
+     Quicksort suboptimal         40,000     50,014,999            244
+          Quicksort Malik         40,000        125,440              0
+        Quicksort optimal         40,000        125,440              1
+                Mergesort         94,605         64,608              5
+
+N = 100,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0  4,999,950,000         23,169
+           Insertion sort              0         99,999              0
+     Shellsort suboptimal              0      1,500,006             17
+        Shellsort optimal              0        967,146              9
+     Quicksort suboptimal        400,000  5,000,149,999         24,228
+          Quicksort Malik        400,000      1,600,017             17
+        Quicksort optimal        400,000      1,600,017             13
+                Mergesort      1,115,021        815,024             53
+
+==============
+Reverse sorted
+==============
+
+N = 100
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort            100          4,950              0
+           Insertion sort          5,049          4,950              0
+     Shellsort suboptimal            516            668              0
+        Shellsort optimal            420            500              0
+     Quicksort suboptimal            400          5,149              0
+          Quicksort Malik            498            626              0
+        Quicksort optimal            498          1,426              0
+                Mergesort            653            356              0
+
+N = 1,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort          1,000        499,500              2
+           Insertion sort        500,499        499,500              7
+     Shellsort suboptimal          9,072         11,716              0
+        Shellsort optimal          6,855          8,550              0
+     Quicksort suboptimal          4,000        501,499              1
+          Quicksort Malik          4,998          9,484              0
+        Quicksort optimal          4,998        126,751              0
+                Mergesort          8,041          5,044              0
+
+N = 10,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort         10,000     49,995,000            295
+           Insertion sort     50,004,999     49,995,000          1,017
+     Shellsort suboptimal        124,592        172,578              1
+        Shellsort optimal         93,666        120,190              1
+     Quicksort suboptimal         40,000     50,014,999            236
+          Quicksort Malik         49,998        128,330              1
+        Quicksort optimal         49,998     12,517,501             51
+                Mergesort         99,005         69,008              4
+
+N = 100,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort        100,000  4,999,950,000         28,355
+           Insertion sort  5,000,049,999  4,999,950,000        100,968
+     Shellsort suboptimal      1,655,808      2,244,585             43
+        Shellsort optimal      1,091,006      1,533,494             32
+     Quicksort suboptimal        400,000  5,000,149,999         22,652
+          Quicksort Malik        499,998      1,613,768             10
+        Quicksort optimal        499,998  1,250,175,001          5,547
+                Mergesort      1,153,901        853,904             57
+
+=========
+All zeros
+=========
+
+N = 100
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0          4,950              0
+           Insertion sort              0             99              0
+     Shellsort suboptimal              0            503              0
+        Shellsort optimal              0            342              0
+     Quicksort suboptimal            400          5,149              0
+          Quicksort Malik            400          5,149              0
+        Quicksort optimal            400          5,149              0
+                Mergesort            613            316              0
+
+N = 1,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0        499,500              1
+           Insertion sort              0            999              0
+     Shellsort suboptimal              0          8,006              0
+        Shellsort optimal              0          5,457              0
+     Quicksort suboptimal          4,000        501,499              1
+          Quicksort Malik          4,000        501,499              2
+        Quicksort optimal          4,000        501,499              2
+                Mergesort          7,929          4,932              0
+
+N = 10,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0     49,995,000            198
+           Insertion sort              0          9,999              0
+     Shellsort suboptimal              0        120,005              1
+        Shellsort optimal              0         75,243              0
+     Quicksort suboptimal         40,000     50,014,999            238
+          Quicksort Malik         40,000     50,014,999            230
+        Quicksort optimal         40,000     50,014,999            235
+                Mergesort         94,605         64,608              5
+
+N = 100,000
+
+                ALGORITHM          MOVES       COMPARES   MILLISECONDS
+           Selection sort              0  4,999,950,000         20,748
+           Insertion sort              0         99,999              0
+     Shellsort suboptimal              0      1,500,006             12
+        Shellsort optimal              0        967,146              7
+     Quicksort suboptimal        400,000  5,000,149,999         22,856
+          Quicksort Malik        400,000  5,000,149,999         22,591
+        Quicksort optimal        400,000  5,000,149,999         23,538
+                Mergesort      1,115,021        815,024             72
+
+Done! 380 seconds.
+Program ended with exit code: 0

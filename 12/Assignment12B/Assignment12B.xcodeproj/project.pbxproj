@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DB36E31DF11C7600D614C9 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36C91DF11C7600D614C9 /* InsertionSort.cpp */; };
+		D5DB36E41DF11C7600D614C9 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36CB1DF11C7600D614C9 /* LinkedList.cpp */; };
+		D5DB36E51DF11C7600D614C9 /* ListSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36CD1DF11C7600D614C9 /* ListSorter.cpp */; };
+		D5DB36E61DF11C7600D614C9 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36CF1DF11C7600D614C9 /* MergeSort.cpp */; };
+		D5DB36E71DF11C7600D614C9 /* QuickSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36D21DF11C7600D614C9 /* QuickSorter.cpp */; };
+		D5DB36E81DF11C7600D614C9 /* QuickSortOptimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36D41DF11C7600D614C9 /* QuickSortOptimal.cpp */; };
+		D5DB36E91DF11C7600D614C9 /* QuickSortSuboptimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36D61DF11C7600D614C9 /* QuickSortSuboptimal.cpp */; };
+		D5DB36EA1DF11C7600D614C9 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36D81DF11C7600D614C9 /* SelectionSort.cpp */; };
+		D5DB36EB1DF11C7600D614C9 /* ShellSortOptimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36DA1DF11C7600D614C9 /* ShellSortOptimal.cpp */; };
+		D5DB36EC1DF11C7600D614C9 /* ShellSortSuboptimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36DC1DF11C7600D614C9 /* ShellSortSuboptimal.cpp */; };
+		D5DB36ED1DF11C7600D614C9 /* Sorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36DE1DF11C7600D614C9 /* Sorter.cpp */; };
+		D5DB36EE1DF11C7600D614C9 /* SortTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36E01DF11C7600D614C9 /* SortTests.cpp */; };
+		D5DB36EF1DF11C7600D614C9 /* VectorSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36E11DF11C7600D614C9 /* VectorSorter.cpp */; };
+		D5DB36F21DF2A13A00D614C9 /* QuickSortMalik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DB36F01DF2A13A00D614C9 /* QuickSortMalik.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5DB36B81DF11C5800D614C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5DB36BA1DF11C5800D614C9 /* Assignment12B */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment12B; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DB36C41DF11C7600D614C9 /* DataAllZeros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAllZeros.h; sourceTree = "<group>"; };
+		D5DB36C51DF11C7600D614C9 /* DataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGenerator.h; sourceTree = "<group>"; };
+		D5DB36C61DF11C7600D614C9 /* DataRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRandom.h; sourceTree = "<group>"; };
+		D5DB36C71DF11C7600D614C9 /* DataReverseSorted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReverseSorted.h; sourceTree = "<group>"; };
+		D5DB36C81DF11C7600D614C9 /* DataSorted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSorted.h; sourceTree = "<group>"; };
+		D5DB36C91DF11C7600D614C9 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
+		D5DB36CA1DF11C7600D614C9 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		D5DB36CB1DF11C7600D614C9 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		D5DB36CC1DF11C7600D614C9 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		D5DB36CD1DF11C7600D614C9 /* ListSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListSorter.cpp; sourceTree = "<group>"; };
+		D5DB36CE1DF11C7600D614C9 /* ListSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSorter.h; sourceTree = "<group>"; };
+		D5DB36CF1DF11C7600D614C9 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		D5DB36D01DF11C7600D614C9 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		D5DB36D11DF11C7600D614C9 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		D5DB36D21DF11C7600D614C9 /* QuickSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSorter.cpp; sourceTree = "<group>"; };
+		D5DB36D31DF11C7600D614C9 /* QuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorter.h; sourceTree = "<group>"; };
+		D5DB36D41DF11C7600D614C9 /* QuickSortOptimal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSortOptimal.cpp; sourceTree = "<group>"; };
+		D5DB36D51DF11C7600D614C9 /* QuickSortOptimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortOptimal.h; sourceTree = "<group>"; };
+		D5DB36D61DF11C7600D614C9 /* QuickSortSuboptimal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSortSuboptimal.cpp; sourceTree = "<group>"; };
+		D5DB36D71DF11C7600D614C9 /* QuickSortSuboptimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortSuboptimal.h; sourceTree = "<group>"; };
+		D5DB36D81DF11C7600D614C9 /* SelectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
+		D5DB36D91DF11C7600D614C9 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		D5DB36DA1DF11C7600D614C9 /* ShellSortOptimal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShellSortOptimal.cpp; sourceTree = "<group>"; };
+		D5DB36DB1DF11C7600D614C9 /* ShellSortOptimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSortOptimal.h; sourceTree = "<group>"; };
+		D5DB36DC1DF11C7600D614C9 /* ShellSortSuboptimal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShellSortSuboptimal.cpp; sourceTree = "<group>"; };
+		D5DB36DD1DF11C7600D614C9 /* ShellSortSuboptimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSortSuboptimal.h; sourceTree = "<group>"; };
+		D5DB36DE1DF11C7600D614C9 /* Sorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sorter.cpp; sourceTree = "<group>"; };
+		D5DB36DF1DF11C7600D614C9 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		D5DB36E01DF11C7600D614C9 /* SortTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortTests.cpp; sourceTree = "<group>"; };
+		D5DB36E11DF11C7600D614C9 /* VectorSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSorter.cpp; sourceTree = "<group>"; };
+		D5DB36E21DF11C7600D614C9 /* VectorSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorSorter.h; sourceTree = "<group>"; };
+		D5DB36F01DF2A13A00D614C9 /* QuickSortMalik.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSortMalik.cpp; sourceTree = "<group>"; };
+		D5DB36F11DF2A13A00D614C9 /* QuickSortMalik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortMalik.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DB36B71DF11C5800D614C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DB36B11DF11C5800D614C9 = {
+			isa = PBXGroup;
+			children = (
+				D5DB36BC1DF11C5800D614C9 /* Assignment12B */,
+				D5DB36BB1DF11C5800D614C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DB36BB1DF11C5800D614C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB36BA1DF11C5800D614C9 /* Assignment12B */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DB36BC1DF11C5800D614C9 /* Assignment12B */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB36C41DF11C7600D614C9 /* DataAllZeros.h */,
+				D5DB36C51DF11C7600D614C9 /* DataGenerator.h */,
+				D5DB36C61DF11C7600D614C9 /* DataRandom.h */,
+				D5DB36C71DF11C7600D614C9 /* DataReverseSorted.h */,
+				D5DB36C81DF11C7600D614C9 /* DataSorted.h */,
+				D5DB36C91DF11C7600D614C9 /* InsertionSort.cpp */,
+				D5DB36CA1DF11C7600D614C9 /* InsertionSort.h */,
+				D5DB36CB1DF11C7600D614C9 /* LinkedList.cpp */,
+				D5DB36CC1DF11C7600D614C9 /* LinkedList.h */,
+				D5DB36CD1DF11C7600D614C9 /* ListSorter.cpp */,
+				D5DB36CE1DF11C7600D614C9 /* ListSorter.h */,
+				D5DB36CF1DF11C7600D614C9 /* MergeSort.cpp */,
+				D5DB36D01DF11C7600D614C9 /* MergeSort.h */,
+				D5DB36D11DF11C7600D614C9 /* Node.h */,
+				D5DB36D21DF11C7600D614C9 /* QuickSorter.cpp */,
+				D5DB36D31DF11C7600D614C9 /* QuickSorter.h */,
+				D5DB36D41DF11C7600D614C9 /* QuickSortOptimal.cpp */,
+				D5DB36D51DF11C7600D614C9 /* QuickSortOptimal.h */,
+				D5DB36F01DF2A13A00D614C9 /* QuickSortMalik.cpp */,
+				D5DB36F11DF2A13A00D614C9 /* QuickSortMalik.h */,
+				D5DB36D61DF11C7600D614C9 /* QuickSortSuboptimal.cpp */,
+				D5DB36D71DF11C7600D614C9 /* QuickSortSuboptimal.h */,
+				D5DB36D81DF11C7600D614C9 /* SelectionSort.cpp */,
+				D5DB36D91DF11C7600D614C9 /* SelectionSort.h */,
+				D5DB36DA1DF11C7600D614C9 /* ShellSortOptimal.cpp */,
+				D5DB36DB1DF11C7600D614C9 /* ShellSortOptimal.h */,
+				D5DB36DC1DF11C7600D614C9 /* ShellSortSuboptimal.cpp */,
+				D5DB36DD1DF11C7600D614C9 /* ShellSortSuboptimal.h */,
+				D5DB36DE1DF11C7600D614C9 /* Sorter.cpp */,
+				D5DB36DF1DF11C7600D614C9 /* Sorter.h */,
+				D5DB36E01DF11C7600D614C9 /* SortTests.cpp */,
+				D5DB36E11DF11C7600D614C9 /* VectorSorter.cpp */,
+				D5DB36E21DF11C7600D614C9 /* VectorSorter.h */,
+			);
+			path = Assignment12B;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DB36B91DF11C5800D614C9 /* Assignment12B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DB36C11DF11C5800D614C9 /* Build configuration list for PBXNativeTarget "Assignment12B" */;
+			buildPhases = (
+				D5DB36B61DF11C5800D614C9 /* Sources */,
+				D5DB36B71DF11C5800D614C9 /* Frameworks */,
+				D5DB36B81DF11C5800D614C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment12B;
+			productName = Assignment12B;
+			productReference = D5DB36BA1DF11C5800D614C9 /* Assignment12B */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DB36B21DF11C5800D614C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kanghuawu;
+				TargetAttributes = {
+					D5DB36B91DF11C5800D614C9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5DB36B51DF11C5800D614C9 /* Build configuration list for PBXProject "Assignment12B" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5DB36B11DF11C5800D614C9;
+			productRefGroup = D5DB36BB1DF11C5800D614C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DB36B91DF11C5800D614C9 /* Assignment12B */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DB36B61DF11C5800D614C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB36EB1DF11C7600D614C9 /* ShellSortOptimal.cpp in Sources */,
+				D5DB36ED1DF11C7600D614C9 /* Sorter.cpp in Sources */,
+				D5DB36F21DF2A13A00D614C9 /* QuickSortMalik.cpp in Sources */,
+				D5DB36E81DF11C7600D614C9 /* QuickSortOptimal.cpp in Sources */,
+				D5DB36EC1DF11C7600D614C9 /* ShellSortSuboptimal.cpp in Sources */,
+				D5DB36E41DF11C7600D614C9 /* LinkedList.cpp in Sources */,
+				D5DB36EA1DF11C7600D614C9 /* SelectionSort.cpp in Sources */,
+				D5DB36E51DF11C7600D614C9 /* ListSorter.cpp in Sources */,
+				D5DB36E61DF11C7600D614C9 /* MergeSort.cpp in Sources */,
+				D5DB36E91DF11C7600D614C9 /* QuickSortSuboptimal.cpp in Sources */,
+				D5DB36E71DF11C7600D614C9 /* QuickSorter.cpp in Sources */,
+				D5DB36EF1DF11C7600D614C9 /* VectorSorter.cpp in Sources */,
+				D5DB36E31DF11C7600D614C9 /* InsertionSort.cpp in Sources */,
+				D5DB36EE1DF11C7600D614C9 /* SortTests.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5DB36BF1DF11C5800D614C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5DB36C01DF11C5800D614C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5DB36C21DF11C5800D614C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5DB36C31DF11C5800D614C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DB36B51DF11C5800D614C9 /* Build configuration list for PBXProject "Assignment12B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB36BF1DF11C5800D614C9 /* Debug */,
+				D5DB36C01DF11C5800D614C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DB36C11DF11C5800D614C9 /* Build configuration list for PBXNativeTarget "Assignment12B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB36C21DF11C5800D614C9 /* Debug */,
+				D5DB36C31DF11C5800D614C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DB36B21DF11C5800D614C9 /* Project object */;
+}
