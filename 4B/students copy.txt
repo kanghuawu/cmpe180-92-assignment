@@ -1,3 +1,0 @@
-C++ 2
-John Wayne 5 90 85 100 78 81
-Amanda Young 4 95 91 100 97
